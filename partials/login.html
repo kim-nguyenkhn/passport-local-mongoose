@@ -1,0 +1,25 @@
+<!-- partials/login.html -->
+
+<div class="container">
+
+    <h1><i class="fa fa-sign-in"></i> Login</h1>
+
+    <form role="form" ng-submit="loginUser()">
+        <div class="row">
+            <label>Username
+                <input type="text" ng-model="user.username"/>
+            </label>
+        </div>
+        <div class="row">
+            <label>Password
+                <input type="password" ng-model="user.password"/>
+            </label>
+        </div>
+        <div class="row">
+            <input type="submit" class="button btn_login" value="Login"/>
+        </div>
+    </form>
+
+    <p>Need an account? <a ui-sref="signup">Sign up here.</a></p>
+    <p>Or go <a ui-sref="home">home.</a></p>
+</div>

@@ -1,0 +1,12 @@
+{
+    "name": "passport_local_mongoose",
+    "version": "0.0.1",
+    "main": "./base.js",
+    "dependencies": {
+        "angular": "~1.2.x",
+        "angular-resource": "1.2.x",
+        "angular-ui-router": "0.2.x",
+        "foundation": "5.4.x",
+        "foundation-icons": "latest"
+    }
+}
